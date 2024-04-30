@@ -6,3 +6,31 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
   </head>
+  <body class="container">
+      <main>
+        <figure>
+          <blockquote id="blockquote">Select a category, then fetch a quote. Or just get a random one.</blockquote>
+          <figcaption id="author"></figcaption>
+          <div class="inputs">
+            <select name="category" id="select">
+              <option value="Necromancy">Necromancy</option>
+              <option value="Divination">Divination</option>
+              <option value="Transmutation">Transmutation</option>
+              <option value="Illusion">Illusion</option>
+              <option value="Evocation">Evocation</option>
+              <option value="Abjuration">Abjuration</option>
+              <option value="conjuration">Conjuration</option>
+              <option value="enchantment">Enchantment</option>
+            </select>
+            <button role="button" onclick="getSpell()">Learn Spell</button>
+          </div>
+        </figure>
+      </main>
+      <hr>
+      <footer>
+        <p>&copy;<span class="numbers">2024</span> Phillip P</p>
+      </footer>
+      <script src="data.js"></script>
+      <script src="display.js"></script>
+    </body>
+  </html>

@@ -7,9 +7,9 @@ function getSpell() {
     let Action = document.getElementById('castTime');
     let feet = document.getElementById('range');
     let des = document.getElementById('description');
-    let sch = quotesArr.filter(spell => spell.school === selected);
-    let rand = Math.floor(Math.random() * school.length);
-    quoteText.innerText = sch[rand].text;
+    let sch = data.filter(spell => spell.school === selected);
+    let rand = Math.floor(Math.random() * sch.length);
+    //spellName.innerText = sch[rand].text;
       if (sch[rand].spellName === null) {
         spellName.innerText = "Anonymous";
       } else {

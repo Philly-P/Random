@@ -1,3 +1,4 @@
+
 const data = [
     {
     "name": "Magic Missle 1st level spell",
