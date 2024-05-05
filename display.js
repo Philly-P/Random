@@ -1,4 +1,6 @@
 
+
+//switched this into something easier to understand after looking at example code as the other way still wouldn't work
 function getSpell() {
   let selector = document.getElementById('select');
   selector.disabled = false;
