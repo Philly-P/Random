@@ -3,16 +3,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
   </head>
   <body class="container">
       <main>
         <figure>
-          <blockquote id="blockquote">Select a category, then fetch a quote. Or just get a random one.</blockquote>
-          <figcaption id="author"></figcaption>
+          <blockquote id="description">Choose a School to learn a new spell.</blockquote>
+          <figcaption id="name"></figcaption>
+          <figcaption id="castTime"></figcaption>
+          <figcaption id="range"></figcaption>
           <div class="inputs">
-            <select name="category" id="select">
+            <select name="school" id="select">
               <option value="Necromancy">Necromancy</option>
               <option value="Divination">Divination</option>
               <option value="Transmutation">Transmutation</option>
@@ -28,7 +30,7 @@
       </main>
       <hr>
       <footer>
-        <p>&copy;<span class="numbers">2024</span> Phillip P</p>
+        <p>&copy;<span class="bottom">2024</span> Phillip P</p>
       </footer>
       <script src="data.js"></script>
       <script src="display.js"></script>
